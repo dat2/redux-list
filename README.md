@@ -4,6 +4,7 @@ Some higher order actions that help with list state management.
 ## list higher order reducer
 
 ### Example usage
+Creating a list reducer
 ```js
 // todoListReducer.js
 import { list } from 'redux-list';
@@ -45,6 +46,7 @@ export default reducer;
 export { push, insert, remove, pop, edit: update(createEditAction), complete: update(createCompleteAction) };
 ```
 
+Using the actions created by the list reducer.
 ```js
 // store.js
 import { createStore } from 'redux';
