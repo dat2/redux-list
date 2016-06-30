@@ -87,11 +87,13 @@ function list(wrappedReducer) {
   // finally, return the action creators and the reducer
   return {
     reducer,
-    push: createPushAction(key),
-    insert: createInsertAction(key),
-    update: createUpdateAction(key),
-    remove: createRemoveAction(key),
-    pop: createPopAction(key)
+    actions: {
+      push: createPushAction(key),
+      insert: createInsertAction(key),
+      update: createUpdateAction(key),
+      remove: createRemoveAction(key),
+      pop: createPopAction(key)
+    }
   };
 }
 
