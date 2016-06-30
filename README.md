@@ -1,12 +1,12 @@
-# redux-collections
-Some higher order reducers that help users compose reducers.
+# redux-list
+Some higher order actions that help with list state management.
 
 ## list higher order reducer
 
 ### Example usage
 ```js
 // todoListReducer.js
-import { list } from 'redux-collections';
+import { list } from 'redux-list';
 
 // actions for a todo
 function createEditAction(text) {

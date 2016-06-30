@@ -1,6 +1,6 @@
 {
-  "name": "redux-collections",
-  "version": "0.1.0",
+  "name": "redux-list",
+  "version": "0.2.0",
   "description": "A set of higher order reducers to help reduce redux boilerplate",
   "main": "index.js",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dat2/redux-collections.git"
+    "url": "https://github.com/dat2/redux-list.git"
   },
   "author": "Nicholas Dujay <nickdujay@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dat2/redux-collections/issues"
+    "url": "https://github.com/dat2/redux-list/issues"
   },
-  "homepage": "https://github.com/dat2/redux-collections",
+  "homepage": "https://github.com/dat2/redux-list",
   "devDependencies": {
     "mocha": "^2.5.3"
   }
