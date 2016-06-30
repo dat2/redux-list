@@ -43,7 +43,9 @@ const { reducer, actions: { push, insert, update, remove, pop } } = list(todo);
 
 export default reducer;
 export { push, insert, remove, pop, edit: update(createEditAction), complete: update(createCompleteAction) };
+```
 
+```js
 // store.js
 import { createStore } from 'redux';
 import reducer, { push, edit, complete, insert, remove, pop } from './todoListReducer';
