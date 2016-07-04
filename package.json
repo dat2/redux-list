@@ -2,10 +2,16 @@
   "name": "redux-list",
   "version": "0.2.0",
   "description": "A set of higher order reducers to help reduce redux boilerplate",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
   },
+  "keywords": [
+    "redux",
+    "reducer",
+    "list"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/dat2/redux-list.git"
@@ -17,6 +23,8 @@
   },
   "homepage": "https://github.com/dat2/redux-list",
   "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0",
     "mocha": "^2.5.3"
   }
 }
